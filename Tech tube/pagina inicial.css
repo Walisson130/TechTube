@@ -1,0 +1,162 @@
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    left: 15px;
+    width:400px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:3px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:395px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:64px;
+    border-radius:0 7px 7px 0;
+    width:90px;
+    font-weight:bold;
+    background:#5F9EA0;
+  }
+  
+
+  /* Estilos gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do cabeçalho */
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    
+  }
+  
+  .header h1 {
+    margin: 0;
+    padding: 10px;
+    margin-left: 8%;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 15;
+    width: 22%;
+    height: auto;
+    
+  }
+  .nome {
+    margin-left: 7%;
+  
+
+  }
+  /* Estilos do menu */
+  
+  .menu {
+    margin-left:25%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .menu li {
+    position: relative;
+  }
+
+  .menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .menu ul.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    display: none;
+    min-width: 150px;
+  }
+
+  .menu li:hover ul.dropdown {
+    display: block;
+  }
+
+  .menu ul.dropdown li {
+    display: block;
+  }
+
+  .menu ul.dropdown li a {
+    color: #fff;
+    padding: 10px;
+  }
+  .user {
+    width: 17%;
+    float: right;
+    top: 0;
+   
+    height: auto;
+  }
+  
+  /* Estilos do conteúdo */
+  
+  .content {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #f4f4f4;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 200px;
+  }
+  
+  /* Estilos do rodapé */
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
